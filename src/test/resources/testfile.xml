@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vf:VymennyFormat xmlns:gml="http://www.opengis.net/gml/3.2"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:ami="urn:cz:isvs:ruian:schemas:AdrMistoIntTypy:v1"
+                  xmlns:base="urn:cz:isvs:ruian:schemas:BaseTypy:v1"
+                  xmlns:coi="urn:cz:isvs:ruian:schemas:CastObceIntTypy:v1"
+                  xmlns:com="urn:cz:isvs:ruian:schemas:CommonTypy:v1"
+                  xmlns:kui="urn:cz:isvs:ruian:schemas:KatUzIntTypy:v1"
+                  xmlns:kri="urn:cz:isvs:ruian:schemas:KrajIntTypy:v1"
+                  xmlns:mci="urn:cz:isvs:ruian:schemas:MomcIntTypy:v1"
+                  xmlns:mpi="urn:cz:isvs:ruian:schemas:MopIntTypy:v1"
+                  xmlns:obi="urn:cz:isvs:ruian:schemas:ObecIntTypy:v1"
+                  xmlns:oki="urn:cz:isvs:ruian:schemas:OkresIntTypy:v1"
+                  xmlns:opi="urn:cz:isvs:ruian:schemas:OrpIntTypy:v1"
+                  xmlns:pai="urn:cz:isvs:ruian:schemas:ParcelaIntTypy:v1"
+                  xmlns:pui="urn:cz:isvs:ruian:schemas:PouIntTypy:v1"
+                  xmlns:rsi="urn:cz:isvs:ruian:schemas:RegSouIntiTypy:v1"
+                  xmlns:spi="urn:cz:isvs:ruian:schemas:SpravObvIntTypy:v1"
+                  xmlns:sti="urn:cz:isvs:ruian:schemas:StatIntTypy:v1"
+                  xmlns:soi="urn:cz:isvs:ruian:schemas:StavObjIntTypy:v1"
+                  xmlns:uli="urn:cz:isvs:ruian:schemas:UliceIntTypy:v1"
+                  xmlns:vci="urn:cz:isvs:ruian:schemas:VuscIntTypy:v1"
+                  xmlns:vf="urn:cz:isvs:ruian:schemas:VymennyFormatTypy:v1"
+                  xmlns:zji="urn:cz:isvs:ruian:schemas:ZsjIntTypy:v1"
+                  xmlns:voi="urn:cz:isvs:ruian:schemas:VOIntTypy:v1"
+                  xsi:schemaLocation="urn:cz:isvs:ruian:schemas:VymennyFormatTypy:v1 ../ruian/xsd/vymenny_format/VymennyFormatTypy.xsd"><!--
+  v 1.0 - základní verze
+v 1.1
+- doplnění verzování
+- doplnění dat platnosti (přidání elementu PlatnostDatK)
+- změna EPSG
+- doplnění hranice pro parcely OMP-V (OriginalniHraniceOmpv)
+v 1.3 - volební okrsky
+- speciální VFR
+v 1.4 - seznam adres
+v 1.5 - změna volební okrsky
+v 1.6 - datum vzniku
+v 1.8 - rozšření nesprávností o VO
+v 2.1 - nový set xsd
+v 3.1 - promítnutí zákona o územně správním členění státu; výměnný formát pro účelové územní prvky
+--><vf:Hlavicka>
+      <vf:VerzeVFR>3.1</vf:VerzeVFR>
+      <vf:TypZaznamu>Platne</vf:TypZaznamu>
+      <vf:TypDavky>Plna</vf:TypDavky>
+      <vf:TypSouboru>OB_UZSZ</vf:TypSouboru>
+      <vf:Datum>2021-04-01T00:19:34</vf:Datum>
+      <vf:TransakceOd>
+         <com:Id>0</com:Id>
+         <com:Zapsano>2012-06-29T01:36:44</com:Zapsano>
+      </vf:TransakceOd>
+      <vf:TransakceDo>
+         <com:Id>3764815</com:Id>
+         <com:Zapsano>2021-03-31T23:09:03</com:Zapsano>
+      </vf:TransakceDo>
+      <vf:Metadata xlink:type="simple"
+                   xlink:href="http://cuzk.cz/ruian/metadata/20210331_OB_573060_UZSZ.xml"/>
+      <vf:PlatnostDatK>
+         <com:ISUI>2021-03-31T22:06:06</com:ISUI>
+         <com:ISKN>2021-03-31T23:09:03</com:ISKN>
+      </vf:PlatnostDatK>
+   </vf:Hlavicka>
+   <vf:Data>
+      <vf:Obce>
+         <vf:Obec gml:id="OB.573060">
+            <obi:Kod>573060</obi:Kod>
+            <obi:Nazev>Kopidlno</obi:Nazev>
+            <obi:StatusKod>3</obi:StatusKod>
+            <obi:Okres>
+               <oki:Kod>3604</oki:Kod>
+            </obi:Okres>
+            <obi:Pou>
+               <pui:Kod>2186</pui:Kod>
+            </obi:Pou>
+            <obi:PlatiOd>2019-07-10T00:00:00</obi:PlatiOd>
+            <obi:IdTransakce>2937100</obi:IdTransakce>
+            <obi:GlobalniIdNavrhuZmeny>2042164</obi:GlobalniIdNavrhuZmeny>
+            <obi:MluvnickeCharakteristiky>
+               <com:Pad2>Kopidlna</com:Pad2>
+               <com:Pad3>Kopidlnu</com:Pad3>
+               <com:Pad4>Kopidlno</com:Pad4>
+               <com:Pad6>Kopidlně</com:Pad6>
+               <com:Pad7>Kopidlnem</com:Pad7>
+            </obi:MluvnickeCharakteristiky>
+            <obi:NutsLau>CZ0522573060</obi:NutsLau>
+            <obi:Geometrie>
+               <obi:DefinicniBod>
+                  <gml:MultiPoint gml:id="DOB.573060"
+                                  srsName="urn:ogc:def:crs:EPSG::5514"
+                                  srsDimension="2">
+                     <gml:pointMembers>
+                        <gml:Point gml:id="DOB.573060.1">
+                           <gml:pos>-679188.00 -1024096.00</gml:pos>
+                        </gml:Point>
+                     </gml:pointMembers>
+                  </gml:MultiPoint>
+               </obi:DefinicniBod>
+            </obi:Geometrie>
+         </vf:Obec>
+      </vf:Obce>
+      <vf:CastiObci>
+         <vf:CastObce gml:id="CO.69299">
+            <coi:Kod>69299</coi:Kod>
+            <coi:Nazev>Kopidlno</coi:Nazev>
+            <coi:Obec>
+               <obi:Kod>573060</obi:Kod>
+            </coi:Obec>
+            <coi:PlatiOd>2014-01-03T00:00:00</coi:PlatiOd>
+            <coi:IdTransakce>449645</coi:IdTransakce>
+            <coi:GlobalniIdNavrhuZmeny>473083</coi:GlobalniIdNavrhuZmeny>
+            <coi:MluvnickeCharakteristiky>
+               <com:Pad2>Kopidlna</com:Pad2>
+               <com:Pad3>Kopidlnu</com:Pad3>
+               <com:Pad4>Kopidlno</com:Pad4>
+               <com:Pad6>Kopidlně</com:Pad6>
+               <com:Pad7>Kopidlnem</com:Pad7>
+            </coi:MluvnickeCharakteristiky>
+            <coi:Geometrie>
+               <coi:DefinicniBod>
+                  <gml:Point gml:id="DCO.69299"
+                             srsName="urn:ogc:def:crs:EPSG::5514"
+                             srsDimension="2">
+                     <gml:pos>-679188.00 -1024096.00</gml:pos>
+                  </gml:Point>
+               </coi:DefinicniBod>
+            </coi:Geometrie>
+         </vf:CastObce>
+         <vf:CastObce gml:id="CO.69302">
+            <coi:Kod>69302</coi:Kod>
+            <coi:Nazev>Ledkov</coi:Nazev>
+            <coi:Obec>
+               <obi:Kod>573060</obi:Kod>
+            </coi:Obec>
+            <coi:PlatiOd>2014-01-03T00:00:00</coi:PlatiOd>
+            <coi:IdTransakce>449647</coi:IdTransakce>
+            <coi:GlobalniIdNavrhuZmeny>473551</coi:GlobalniIdNavrhuZmeny>
+            <coi:MluvnickeCharakteristiky>
+               <com:Pad2>Ledkova</com:Pad2>
+               <com:Pad3>Ledkovu</com:Pad3>
+               <com:Pad4>Ledkov</com:Pad4>
+               <com:Pad6>Ledkově</com:Pad6>
+               <com:Pad7>Ledkovem</com:Pad7>
+            </coi:MluvnickeCharakteristiky>
+            <coi:Geometrie>
+               <coi:DefinicniBod>
+                  <gml:Point gml:id="DCO.69302"
+                             srsName="urn:ogc:def:crs:EPSG::5514"
+                             srsDimension="2">
+                     <gml:pos>-681339.00 -1022382.00</gml:pos>
+                  </gml:Point>
+               </coi:DefinicniBod>
+            </coi:Geometrie>
+         </vf:CastObce>
+      </vf:CastiObci>
+   </vf:Data>
+</vf:VymennyFormat>
