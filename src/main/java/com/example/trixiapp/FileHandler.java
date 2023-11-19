@@ -57,7 +57,7 @@ public class FileHandler {
         ZipEntry zipEntry = zis.getNextEntry();
         while (zipEntry != null) {
             if (!zipEntry.isDirectory()) {
-                String newFile = destDir + zipEntry.getName();
+                String newFile = Paths.get(destDir, zipEntry.getName()).toString();;
                 FileOutputStream fos = new FileOutputStream(newFile);
                 int bytesRead;
                 while ((bytesRead = zis.read(buffer)) > 0) {
